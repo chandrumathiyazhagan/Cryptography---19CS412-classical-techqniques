@@ -30,8 +30,6 @@ Implementation using C or pyhton code
 
 
 ## PROGRAM:
-
-CaearCipher
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -305,6 +303,7 @@ The cipher can, be adapted to an alphabet with any number of letters. All arithm
 
 
 ## PROGRAM:
+```c
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>  // Include the necessary header for toupper()
@@ -395,6 +394,7 @@ int main() {
     
     return 0;
 }
+```
 ## OUTPUT:
 
 ![Screenshot 2024-08-30 141514](https://github.com/user-attachments/assets/c59fcf22-1967-4528-94d8-32747507d004)
@@ -430,6 +430,7 @@ The Vigenere cipher is a method of encrypting alphabetic text by using a series 
 
 
 ## PROGRAM:
+```c
 #include <stdio.h>
 #include <string.h>
 
@@ -481,6 +482,7 @@ int main() {
 
     return 0;
 }
+```
 ## OUTPUT:
 
 ![Screenshot 2024-08-30 141616](https://github.com/user-attachments/assets/3341b0e9-615d-4168-b196-6737df4809fc)
@@ -514,6 +516,7 @@ ALGORITHM DESCRIPTION:
 In the rail fence cipher, the plaintext is written downwards and diagonally on successive "rails" of an imaginary fence, then moving up when we reach the bottom rail. When we reach the top rail, the message is written downwards again until the whole plaintext is written out. The message is then read off in rows.
 
 ## PROGRAM:
+```c
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
@@ -566,6 +569,7 @@ for(j=0;j<len;j++)
 }
 printf("\n");
 }
+```
 ## OUTPUT:
 ![Screenshot 2024-08-30 142425](https://github.com/user-attachments/assets/07316782-db81-49d6-914a-74148ec59c0d)
 
